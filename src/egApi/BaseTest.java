@@ -8,8 +8,8 @@ import java.util.Properties;
 import org.testng.annotations.Test;
 
 public class BaseTest {
-	@Test
-	public void BaseTest() throws IOException
+	
+	public BaseTest() throws IOException
 	{
 		FileInputStream fis=new FileInputStream("C:\\Users\\Su\\workspace\\RestApi\\src\\configeration\\config.properties");
 	
